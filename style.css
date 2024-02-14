@@ -1,12 +1,19 @@
+css
 
  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-
+  body {
+     /* width: 100%; */
+/* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+border: 1px solid rgba(0, 0, 0, 0.1); 
+border-radius: 10px;   */
+  } 
   .segment-1 {
     padding: 3rem;
+    
 
   }
   .head {
@@ -51,14 +58,92 @@ li a {
   }
 
   button {
-    /* padding: 10px 5px; */
+    padding: 8px;
     justify-content: center;
-    /* align-items: center; */
+    color: white;
     border-radius: 20px;
     background: black;
-    /* margin-left: 20px; */
+ 
   }
 
+section {
+  padding: 20px;
+
+}
+
+.container {
+  display: flex;
+  /* width: 100%; */
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+
+.image-container img {
+  max-width: 100%;
+  margin-left: 20px;
+}
+
+
+.yellow-circle {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+}
+
+
+.text-container {
+  flex: 1;
+  color:black;
+  width: 50%;
+  margin-left: 200px;
+  font-size: larger;
+  font-weight: 800;
+}
+
+
+.text-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+.but {
+  background-color: black;
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.text-icon {
+  display: flex;
+  align-items: center;
+}
+
+
+.text-icon-p {
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+
+.text-icon-img {
+  /* width: 10px; */
+  margin-left: 40px;
+}
+
+
+/* .container{
+  display: flex;
+  justify-content:space-around ;
+  padding: 3rem;
+  width: 100%;
+} */
   
   /* body {
     width: 100%;
@@ -256,3 +341,4 @@ img {
     gap: 9rem;
     margin-top: 8rem;
 } */
+ 
