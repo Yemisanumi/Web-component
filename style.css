@@ -1,4 +1,4 @@
-css
+
 
  * {
     margin: 0;
@@ -57,7 +57,7 @@ li a {
     justify-content: space-between;
   }
 
-  button {
+  dashboard-button {
     padding: 8px;
     justify-content: center;
     color: white;
@@ -65,7 +65,7 @@ li a {
     background: black;
  
   }
-
+  
 section {
   padding: 20px;
 
