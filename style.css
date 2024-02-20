@@ -47,7 +47,7 @@ border-radius: 10px;   */
     justify-content: space-between ;
     
   } */
-  ul {
+  /*ul {
     display: flex;
     width: 500px;
     justify-content: space-between;
@@ -65,7 +65,7 @@ li a {
     text-decoration: none;
     list-style: none;
     justify-content: space-between;
-  }
+  }*/
 
   dashboard-button {
     padding: 8px;
